@@ -19,8 +19,9 @@ spring:
     password: root
 management:
   endpoint:
-    bus-refresh:
-      enabled: true
+    web:
+      exposure:
+        include: bus-refresh
 server:
   port: 8765
 feign:
