@@ -7,6 +7,20 @@ spring:
     encoding: UTF-8
     servlet:
       content-type: text/html
+  cloud:
+    bus:
+      enabled: true
+      trace:
+        enabled: true
+  rabbitmq:
+    host: 39.105.203.213
+    port: 5672
+    username: root
+    password: root
+management:
+  endpoint:
+    bus-refresh:
+      enabled: true
 server:
   port: 8765
 feign:
