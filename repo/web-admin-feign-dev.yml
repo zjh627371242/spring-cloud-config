@@ -18,6 +18,8 @@ spring:
     username: root
     password: root
 management:
+  security：
+    enabled：false
   endpoint:
     web:
       exposure:
