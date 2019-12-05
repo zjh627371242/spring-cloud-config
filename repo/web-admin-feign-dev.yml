@@ -30,4 +30,4 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
-foo: version3
+foo: version1
